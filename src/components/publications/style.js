@@ -29,6 +29,10 @@ export const ContainerPublications = styled.div`
     background-color: ${(props) => props.theme.textPrimary};
     border-radius: 20px;
   }
+
+  @media (max-width: 695px) {
+    justify-content: center;
+  }
 `;
 
 export const Content = styled.div`

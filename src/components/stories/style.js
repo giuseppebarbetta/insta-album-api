@@ -22,6 +22,10 @@ export const Container = styled.div`
     background-color: ${(props) => props.theme.textPrimary}; 
     border-radius: 20px; 
   }
+
+  @media (max-width: 794px) {
+    width: 90vw;
+  }
 `;
 
 export const Profile = styled.div`

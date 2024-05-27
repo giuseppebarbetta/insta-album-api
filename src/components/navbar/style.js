@@ -13,6 +13,10 @@ export const Container = styled.div`
         border: ${`1px solid ${props.theme.primary}`};
         box-shadow: ${`9px 0 33px 39px ${props.theme.boxShadow}`};
     `}
+
+    @media (max-width: 795px) {
+        display: none;
+    }
 `
 
 export const BtnTheme = styled.button`
@@ -59,6 +63,10 @@ export const ListIcon = styled.li`
 
     &:hover {
         opacity: 0.7;
+    }
+
+    @media (max-width: 795px) {
+        font-size: 17px;
     }
 `
 

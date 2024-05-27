@@ -7,6 +7,18 @@ export const Container = styled.header`
   align-items: center;
   justify-content: space-between;
   gap: 100px;
+
+  @media (max-width: 915px) {
+    padding: 20px 20px 10px 20px;
+  }
+
+  @media (max-width: 505px) {
+    gap: 26px;
+  }
+
+  @media (max-width: 435px) {
+    display: none;
+  }
 `;
 
 export const Input = styled.input`
